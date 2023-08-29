@@ -1,0 +1,8 @@
+export { default as html5 } from './cdnlogo.com_html.svg'
+export { default as css3 } from './cdnlogo.com_css.svg'
+export { default as js } from './cdnlogo.com_javascript.svg'
+export { default as php } from './cdnlogo.com_php.svg'
+export { default as laravel } from './cdnlogo.com_laravel.svg'
+export { default as react } from './react.svg'
+export { default as bootstrap } from './cdnlogo.com_bootstrap-5.svg'
+export { default as tailwind } from './cdnlogo.com_tailwind-css.svg'
