@@ -7,7 +7,7 @@ function Project() {
                 <Card 
                     name="duamobil"
                     description="Web that helps users in the process of buying and selling used cars"
-                    url="https://www.duamobil.com"
+                    url="https://duamobil.com"
                     owner="Client"
                     tech={["Laravel", "PHP"]}
                 />
