@@ -31,6 +31,11 @@ function useContactFormLogic() {
         emailjs.send('default_service', templateId, templateParams, userId)
             .then(() => {
                 alert('Email sent successfully!')
+                setFormData({
+                    name: "",
+                    email: "",
+                    message: ""
+                });
             })
             .catch ((error) => {
                 console.error('Error sending email:', error)
