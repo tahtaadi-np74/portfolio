@@ -1,4 +1,4 @@
-import { html5, css3, js, php, laravel, react, bootstrap, tailwind } from "../assets/icons/index"
+import { html5, css3, js, php, laravel, react, bootstrap, tailwind, mysql } from "../assets/icons/index"
 
 function About() {
     return (
@@ -45,6 +45,10 @@ function About() {
                     <li className="flex gap-2 items-center">
                         <img src={php} width="24" alt="css-3" />
                         <p>PHP</p>
+                    </li>
+                    <li className="flex gap-2 items-center">
+                        <img src={mysql} width="24" alt="css-3" />
+                        <p>MySQL</p>
                     </li>
                     <li className="flex gap-2 items-center">
                         <img src={laravel} width="24" alt="css-3" />
