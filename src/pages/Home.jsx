@@ -5,7 +5,7 @@ function Home() {
     return (
         <section>
             <div className="my-10 py-10">
-                <img src={image} className="mx-auto mt-5 rounded-full md:w-1/5 w-2/5" alt="hero" />
+                <img src={image} className="mx-auto mt-5 rounded-full md:w-1/3 w-2/3" alt="hero" />
                 <div className="mx-auto p-5 text-center w-3/4">
                     <h1 className="font-bold text-4xl mb-3">Hi, I'm Tahta</h1>
                     <p className="font-semibold text-xl mb-6">Nice to meet you!</p>
