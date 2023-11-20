@@ -1,11 +1,11 @@
-import { html5, css3, js, php, laravel, react, bootstrap, tailwind, mysql } from "../assets/icons/index"
+import { html5, css3, js, php, laravel, react, bootstrap, tailwind, mysql, nodejs } from "../assets/icons/index"
 
 function About() {
     return (
         <section className="w-3/4">
             <div className="my-10 py-10">
                 <h1 className="border-b-2 border-gray-300 mb-8 pb-4 font-bold text-4xl">About me</h1>
-                <p className="text-lg">Hi, I'm Tahta, a web developer based in Bali, Indonesia. I studied at one of the IT campuses in Bali, ITB STIKOM Bali. The education I took there opened my insight into the world of technology and from studying there I also got a Bachelor's degree in Information Systems. So far I have some experience in developing websites and web applications, both frontend and backend. Until now, I have some skills that I have learned. However, I realize that there is still much to learn, so I am committed to continuing to develop, because I believe there are still many horizons of skills and innovation that need to be explored. I'm looking forward to connecting and sharing more about my journey!</p>
+                <p className="text-lg">Hi, I`m Tahta, a web developer based in Bali, Indonesia. I studied at one of the IT campuses in Bali, ITB STIKOM Bali. The education I took there opened my insight into the world of technology and from studying there I also got a Bachelor`s degree in Information Systems. So far I have some experience in developing websites and web applications, both frontend and backend. Until now, I have some skills that I have learned. However, I realize that there is still much to learn, so I am committed to continuing to develop, because I believe there are still many horizons of skills and innovation that need to be explored. I`m looking forward to connecting and sharing more about my journey!</p>
             </div>
 
             <div className="my-10 py-10">
@@ -18,7 +18,7 @@ function About() {
                 <h1 className="border-b-2 border-gray-300 mb-8 pb-4 font-bold text-4xl">Experience</h1>
                 <div className="mb-16">
                     <h2 className="font-medium text-3xl mb-4">Programmer</h2>
-                    <p className="mb-4"><a href="https://appkey.co.id/" className="font-semibold hover:underline" target="_blank">PT. APPKEY</a> — March 29, 2021 - June 29, 2023</p>
+                    <p className="mb-4"><a href="https://appkey.co.id/" className="font-semibold hover:underline" target="_blank" rel="noreferrer">PT. APPKEY</a> — March 29, 2021 - June 29, 2023</p>
                     <ul className="pl-8 list-disc">
                         <li className="text-lg mb-3">Assist in the development of a system with the team for internal and external projects</li>
                         <li className="text-lg mb-3">Collaborate with the design team to create the user interface based on the system analysis that has been done</li>
@@ -65,6 +65,10 @@ function About() {
                     <li className="flex gap-2 items-center">
                         <img src={tailwind} width="24" alt="css-3" />
                         <p>Tailwind</p>
+                    </li>
+                    <li className="flex gap-2 items-center">
+                        <img src={nodejs} width="24" alt="css-3" />
+                        <p>NodeJS</p>
                     </li>
                 </ul>
             </div>
